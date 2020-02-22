@@ -1,0 +1,192 @@
+html, body {
+    text-align: center;
+    font-family: "Segoe UI";
+    height: 100%;
+    margin: 0;
+    background: #f9f9fb;
+    color: #6c757d;
+
+}
+
+div h1, h2, h3 {
+    color: #494d55;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 38px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+p {
+    margin: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background: #494d55;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.85);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer {
+    background: #343a40;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 11px;
+    margin-top: 75px;
+}
+
+.main-container {
+    margin-bottom: -35px;
+    margin: 0 auto -35px;
+    min-height: 100%;
+    max-width: 900px;
+    padding-top: 226px;
+    font-size: 14px;
+
+}
+
+
+.container-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.container-items > div {
+    box-sizing: border-box;
+    width: 255px;
+    padding: 45px 30px 45px 30px;
+    margin: 15px;
+    border: 1px solid #eae9ef;
+    border-radius: 5px;
+    border-top: 3px solid black;
+}
+
+.container-items > div:hover {
+    background-color: #f5f4fa;
+}
+
+.text-highlight {
+    color: #40babd;
+    font-stretch: condensed;
+}
+
+.text-bold {
+    font-weight: 800;
+    color: #fff;
+}
+
+.container-text {
+    padding: 60px 65px 45px 65px;
+}
+
+
+.icon {
+    font-size: 30px;
+}
+
+button {
+    background-color: #40babd;
+    color: white;
+    padding: 7px 15px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+
+    margin-top: 25px;
+}
+
+.icon_heart {
+    color: #ff7396;
+}
+
+div.container-text > h2, h3 {
+    color: #494d55;
+    margin: 0px;
+}
+
+
+.social_btn {
+    background-color: #1b95e0;
+}
+
+.like_btn {
+    background-color: #4267b2;
+}
+
+.social-container button {
+    font-size: 11px;
+    padding: 4px 8px;
+    margin-bottom: 30px;
+
+}
+
+
+div.item-1, .paper-plane {
+
+    border-top-color: #75c181;
+    fill: #75c181;
+}
+
+div.item-2, .puzzle {
+    border-top-color: #EA5395;
+    fill: #EA5395;
+}
+
+div.item-3, .report {
+    border-top-color: #58bbee;
+    fill: #58bbee;
+}
+
+div.item-4, .life-saver {
+    border-top-color: #8A40A7;
+    fill: #8A40A7;
+}
+
+div.item-5, .atom {
+    border-top-color: #40babd;
+    fill: #40babd;
+}
+
+div.item-6, .gift {
+    border-top-color: #F88C30;
+    fill: #F88C30;
+}
+
+.icon {
+    height: 36px;
+    width: 36px;
+    padding-bottom: 20px;
+}
+
+
+@media ( max-width: 871px) {
+    .container-items > div {
+        box-sizing: border-box;
+        width: 300px;
+    }
+}
+
+@media ( max-width: 676px) {
+    .container-items > div {
+        box-sizing: border-box;
+        width: 400px;
+    }
+
+}
